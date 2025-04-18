@@ -1,23 +1,32 @@
-
 const Projects = () => {
   const projects = [
     {
       title: "Fire Fencing Management System",
-      image: "/lovable-uploads/1491b9a8-e4fa-4baa-a239-638dca3502ab.png",
+      image: "/lovable-uploads/fence.png",
       description: "The main objective of this project is to provide information about stock details and management of 'Fencing Wires' in a website. It keeps track of all stocks, sales and purchases to make the business more profitable.",
-      tags: ["Java", "Spring", "React"]
+      tags: ["HTML", "CSS", "PHP", "MySQL"],
+      link: "https://github.com/Jagappa/wire-fencing-project" // replace with actual URL
     },
     {
       title: "Job Portfolio",
-      image: "/lovable-uploads/18244777-ce23-4345-8c3c-1ee2be528de7.png",
+      image: "/lovable-uploads/portfolio.png",
       description: "A portfolio object that holds various pieces of information about a person, showcasing skills, achievements, work samples, projects, certifications, and other relevant professional data.",
-      tags: ["HTML", "CSS", "JavaScript"]
+      tags: ["HTML", "CSS", "JavaScript", "React"],
+      link: "https://github.com/Jagappa/Jagappa-My_Personal-Portfolio-Website" // replace with actual URL
     },
     {
       title: "Test Yantra Website Clone",
-      image: "/lovable-uploads/71626990-4ed2-4a7c-9900-32a765106193.png",
+      image: "/lovable-uploads/project03.png",
       description: "Built the front-end of a professional IT consulting website similar to Test Yantra, using React to practice and enhance React.js skills. Created a dynamic and responsive user interface mirroring a corporate website.",
-      tags: ["React", "Tailwind CSS"]
+      tags: ["React", "Tailwind CSS"],
+      link: "https://github.com/Jagappa/Test_Yantra_webiste_clone" // replace with actual URL
+    },
+    {
+      title: "City Wise Crime Rate Prediction",
+      image: "/lovable-uploads/Crime.png",
+      description: "CrimeSight is an intelligent crime analytics platform designed to predict, visualize, and analyze cyber crime trends across cities using historical data and advanced machine learning models.",
+      tags: ["React", "Tailwind CSS", "Machine Learning", "Node.js"],
+      link: "https://github.com/Jagappa/City_wise_crime_prediction" // replace with actual URL
     }
   ];
 
@@ -28,9 +37,12 @@ const Projects = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <div 
-              key={index} 
-              className="bg-portfolio-card rounded-lg overflow-hidden shadow-lg card-hover"
+            <a 
+              key={index}
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-portfolio-card rounded-lg overflow-hidden shadow-lg card-hover hover:shadow-xl transition-shadow duration-300"
             >
               <div className="h-48 overflow-hidden">
                 <img 
@@ -53,7 +65,7 @@ const Projects = () => {
                 </div>
                 <p className="text-gray-300 text-sm">{project.description}</p>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>

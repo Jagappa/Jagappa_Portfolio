@@ -1,5 +1,4 @@
-
-import { HTMLIcon, CSSIcon, JavaScriptIcon, ReactIcon, NodeIcon } from './SkillIcons';
+import { HTMLIcon, CSSIcon, JavaScriptIcon, ReactIcon, NodeIcon, SpringBootIcon } from './SkillIcons';
 
 const Skills = () => {
   const skills = [
@@ -27,6 +26,11 @@ const Skills = () => {
       name: 'Node.js', 
       icon: <NodeIcon />,
       color: 'bg-green-600' 
+    },
+    {
+      name: 'Spring Boot',
+      icon: <SpringBootIcon />,
+      color: 'bg-lime-600'
     }
   ];
 
@@ -38,14 +42,16 @@ const Skills = () => {
         <div className="mb-10 max-w-3xl mx-auto text-center">
           <h3 className="text-xl md:text-2xl font-semibold mb-4 text-portfolio-accent">About My Skills</h3>
           <p className="text-gray-300">
-            I'm a full-stack developer with expertise in HTML, CSS, JavaScript, Java, and React. 
-            I specialize in building responsive, scalable, and user-friendly web applications.
+            I’m a Java Full Stack Developer with experience in building dynamic and scalable web applications.
+            I work with modern technologies including <span className="font-medium text-white">Java, Spring Boot, React, Node.js, HTML, CSS, and JavaScript</span>.
             <br /><br />
-            <span className="font-medium text-white">Front-end:</span> I create sleek, interactive, and intuitive UI/UX designs using modern web technologies.
+            <span className="font-medium text-white">Frontend:</span> Skilled in creating responsive and user-friendly interfaces using HTML, CSS, JavaScript, and React.
             <br />
-            <span className="font-medium text-white">Back-end:</span> Proficient in Java, I develop efficient and secure server-side logic.
+            <span className="font-medium text-white">Backend:</span> Proficient in Java and Spring Boot for developing secure and scalable server-side applications.
             <br />
-            <span className="font-medium text-white">Tools & Frameworks:</span> Experienced with React for dynamic web applications and optimizing performance.
+            <span className="font-medium text-white">Programming & DSA:</span> Strong foundation in Java with good problem-solving skills using Data Structures and Algorithms.
+            <br />
+            <span className="font-medium text-white">Tools & Platforms:</span> Experienced with Git, GitHub, Postman, and modern IDEs like IntelliJ and VS Code.
           </p>
         </div>
         

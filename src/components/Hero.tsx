@@ -24,7 +24,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id="home" className="pt-24 md:pt-28 pb-16 md:pb-20">
+    <section id="home" className="pt-24 md:py-28 pb-16 md:pb-60">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row gap-10 md:gap-4 items-center">
           <div className="w-full md:w-1/2 space-y-6">
@@ -35,24 +35,27 @@ const Hero = () => {
                 <span ref={typedRef} className="text-portfolio-accent"></span>
               </h4>
             </div>
+            <br></br>
+            
             <div className="text-sm md:text-base text-gray-300">
               <p>
-                "Fresh Java Full Stack Developer skilled in Java, Spring, React, HTML, CSS, and JavaScript. 
-                Passionate about building modern web applications and eager to grow in the tech industry."
+              I’m a passionate Java Full Stack Developer with hands-on experience in building and deploying robust web applications using Java, Spring Boot, Hibernate, React.js, HTML, CSS, and JavaScript. I specialize in creating scalable backend systems and intuitive frontend interfaces, with a solid grasp of RESTful APIs, MVC architecture, and modern development practices.
+
+I thrive in collaborative environments, love learning new technologies, and enjoy solving real-world problems with clean, efficient code.
               </p>
             </div>
             <div className="flex flex-wrap gap-4">
               <a href="https://github.com/Jagappa" target="_blank" rel="noopener noreferrer" className="btn-primary">
                 Visit Github
               </a>
-              <a href="/resume.pdf" download className="btn-primary">
+              <a href="src/resume.pdf" download className="btn-primary">
                 Download Resume
               </a>
             </div>
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img 
-              src="/lovable-uploads/d1848f5d-7eda-423d-8c47-a807ffed902d.png" 
+              src="/lovable-uploads/bd.png" 
               alt="Developer illustration"
               className="w-full max-w-[400px]"
             />

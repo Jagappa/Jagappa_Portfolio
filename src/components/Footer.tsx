@@ -86,7 +86,7 @@ const Footer = () => {
                 <Linkedin size={16} />
               </a>
             </div>
-            <div className="text-lg">(❤️ ω ❤️)</div>
+            {/* <div className="text-lg">(❤️ ω ❤️)</div> */}
           </div>
         </div>
         

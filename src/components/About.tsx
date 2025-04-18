@@ -9,7 +9,7 @@ const About = () => {
           <div className="p-6 md:p-8 flex flex-col md:flex-row gap-8 items-center">
             <div className="w-full md:w-1/3 flex justify-center">
               <img 
-                src="/lovable-uploads/511765f5-20b2-43f5-8071-f8bd99bed32b.png" 
+                src="/lovable-uploads/Aboutphoto.jpg" 
                 alt="Jagappa profile" 
                 className="w-48 h-48 md:w-full md:h-auto object-cover rounded-lg shadow-md"
               />
