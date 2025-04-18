@@ -26,7 +26,7 @@ const About = () => {
                 <p>
                   I have developed a keen interest in Java development and am actively seeking opportunities to apply my skills 
                   in real-world projects. With a solid understanding of Java programming, algorithms, and object-oriented design 
-                  principles, I am eager to contribute to dynamic development teams and work on innovative solutions.
+                  principles, I am eager to contribute to dynamic development teams and work on innovative solutions..
                 </p>
               </div>
             </div>
