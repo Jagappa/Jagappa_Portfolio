@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 
@@ -35,15 +34,16 @@ const Hero = () => {
                 <span ref={typedRef} className="text-portfolio-accent"></span>
               </h4>
             </div>
-            <br></br>
-            
+            <br />
+
             <div className="text-sm md:text-base text-gray-300">
               <p>
-              I’m a passionate Java Full Stack Developer with hands-on experience in building and deploying robust web applications using Java, Spring Boot, Hibernate, React.js, HTML, CSS, and JavaScript. I specialize in creating scalable backend systems and intuitive frontend interfaces, with a solid grasp of RESTful APIs, MVC architecture, and modern development practices.
-
-I thrive in collaborative environments, love learning new technologies, and enjoy solving real-world problems with clean, efficient code.
+                I’m a passionate Java Full Stack Developer with hands-on experience in building and deploying robust web applications using Java, Spring Boot, Hibernate, React.js, HTML, CSS, and JavaScript. I specialize in creating scalable backend systems and intuitive frontend interfaces, with a solid grasp of RESTful APIs, MVC architecture, and modern development practices.
+                <br /><br />
+                I thrive in collaborative environments, love learning new technologies, and enjoy solving real-world problems with clean, efficient code..
               </p>
             </div>
+
             <div className="flex flex-wrap gap-4">
               <a href="https://github.com/Jagappa" target="_blank" rel="noopener noreferrer" className="btn-primary">
                 Visit Github
@@ -51,8 +51,12 @@ I thrive in collaborative environments, love learning new technologies, and enjo
               <a href="src/resume.pdf" download className="btn-primary">
                 Download Resume
               </a>
+              <a href="https://www.linkedin.com/in/jagappa-m" target="_blank" rel="noopener noreferrer" className="btn-primary">
+                Visit LinkedIn
+              </a>
             </div>
           </div>
+
           <div className="w-full md:w-1/2 flex justify-center">
             <img 
               src="/lovable-uploads/bd.png" 
