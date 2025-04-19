@@ -11,8 +11,8 @@ const Projects = () => {
       title: "Job Portfolio",
       image: "/lovable-uploads/portfolio.png",
       description: "A portfolio object that holds various pieces of information about a person, showcasing skills, achievements, work samples, projects, certifications, and other relevant professional data.",
-      tags: ["HTML", "CSS", "JavaScript", "React"],
-      link: "https://github.com/Jagappa/Jagappa-My_Personal-Portfolio-Website" // replace with actual URL
+      tags: ["TypeScript", "CSS", "JavaScript"],
+      link: "https://github.com/Jagappa/Jagappa_Portfolio" // replace with actual URL
     },
     {
       title: "Test Yantra Website Clone",
@@ -25,7 +25,7 @@ const Projects = () => {
       title: "City Wise Crime Rate Prediction",
       image: "/lovable-uploads/Crime.png",
       description: "CrimeSight is an intelligent crime analytics platform designed to predict, visualize, and analyze cyber crime trends across cities using historical data and advanced machine learning models.",
-      tags: ["React", "Tailwind CSS", "Machine Learning", "Node.js"],
+      tags: ["TypeScript", "Tailwind CSS", "Machine Learning", "Node.js"],
       link: "https://github.com/Jagappa/City_wise_crime_prediction" // replace with actual URL
     }
   ];
