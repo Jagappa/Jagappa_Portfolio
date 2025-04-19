@@ -9,8 +9,8 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-lg font-bold mb-4">Jaggu Developer<br />Portfolio</h3>
-            <div className="h-1 w-6 bg-portfolio-accent mb-2"></div>
+            <h3 className="text-lg font-bold mb-4">Jagappa Java Full Stack Developer<br /></h3>
+            {/* <div className="h-1 w-6 bg-portfolio-accent mb-2"></div> */}
           </div>
           
           <div>

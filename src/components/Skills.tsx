@@ -1,4 +1,4 @@
-import { HTMLIcon, CSSIcon, JavaScriptIcon, ReactIcon, NodeIcon, SpringBootIcon } from './SkillIcons';
+import { HTMLIcon, CSSIcon, JavaScriptIcon, ReactIcon, NodeIcon, SpringBootIcon, TypeScriptIcon } from './SkillIcons';
 
 const Skills = () => {
   const skills = [
@@ -18,10 +18,11 @@ const Skills = () => {
       color: 'bg-yellow-400' 
     },
     { 
-      name: 'React', 
+      name: 'React JS', 
       icon: <ReactIcon />,
       color: 'bg-cyan-400' 
     },
+    
     { 
       name: 'Node.js', 
       icon: <NodeIcon />,
@@ -31,6 +32,11 @@ const Skills = () => {
       name: 'Spring Boot',
       icon: <SpringBootIcon />,
       color: 'bg-lime-600'
+    },
+    {
+      name: 'TypeScript',
+      icon: <TypeScriptIcon />,
+      color: 'bg-blue-500' 
     }
   ];
 
@@ -43,9 +49,9 @@ const Skills = () => {
           <h3 className="text-xl md:text-2xl font-semibold mb-4 text-portfolio-accent">About My Skills</h3>
           <p className="text-gray-300">
             I’m a Java Full Stack Developer with experience in building dynamic and scalable web applications.
-            I work with modern technologies including <span className="font-medium text-white">Java, Spring Boot, React, Node.js, HTML, CSS, and JavaScript</span>.
+            I work with modern technologies including <span className="font-medium text-white">Java, Spring Boot, React JS", TypeScript, Node.js, HTML, CSS, and JavaScript</span>.
             <br /><br />
-            <span className="font-medium text-white">Frontend:</span> Skilled in creating responsive and user-friendly interfaces using HTML, CSS, JavaScript, and React.
+            <span className="font-medium text-white">Frontend:</span> Skilled in creating responsive and user-friendly interfaces using HTML, CSS, JavaScript, and React JS",TypeScript.
             <br />
             <span className="font-medium text-white">Backend:</span> Proficient in Java and Spring Boot for developing secure and scalable server-side applications.
             <br />
