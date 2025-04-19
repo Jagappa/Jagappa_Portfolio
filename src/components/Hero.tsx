@@ -40,7 +40,7 @@ const Hero = () => {
               <p>
                 I’m a passionate Java Full Stack Developer with hands-on experience in building and deploying robust web applications using Java, Spring Boot, Hibernate, React.js, HTML, CSS, and JavaScript. I specialize in creating scalable backend systems and intuitive frontend interfaces, with a solid grasp of RESTful APIs, MVC architecture, and modern development practices.
                 <br /><br />
-                I thrive in collaborative environments, love learning new technologies, and enjoy solving real-world problems with clean, efficient code.
+                I thrive in collaborative environments, love learning new technologies, and enjoy solving real-world problems with clean, efficient code..
               </p>
             </div>
 
