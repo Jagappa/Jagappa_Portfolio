@@ -48,7 +48,7 @@ const Hero = () => {
               <a href="https://github.com/Jagappa" target="_blank" rel="noopener noreferrer" className="btn-primary">
                 Visit Github
               </a>
-              <a href="src/resume.pdf" download className="btn-primary">
+              <a href="public/Resume.pdf" download className="btn-primary">
                 Download Resume
               </a>
               <a href="https://www.linkedin.com/in/jagappa-m" target="_blank" rel="noopener noreferrer" className="btn-primary">
