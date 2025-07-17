@@ -27,6 +27,13 @@ const Projects = () => {
       description: "CrimeSight is an intelligent crime analytics platform designed to predict, visualize, and analyze cyber crime trends across cities using historical data and advanced machine learning models.",
       tags: ["TypeScript", "Tailwind CSS", "Machine Learning", "Node.js"],
       link: "https://github.com/Jagappa/City_wise_crime_prediction" // replace with actual URL
+    },
+    {
+      title: "Employee Management System",
+      image: "/lovable-uploads/employee.png",
+      description: "The Employee Management System is a full-stack CRUD web application designed to manage employee records efficiently. The frontend is built using React.js with React Router DOM for smooth navigation between components like Dashboard, Add Employee, Update Employee, and a 404 page for unmatched routes. The backend is powered by Spring Boot REST APIs connected to a MySQL database to handle data persistence..",
+      tags: ["JavaScript", "Tailwind CSS", "SpringBoot", "Node.js" ,"MYSQL","React Router DOM"],
+      link: "https://github.com/Jagappa/Java-FullStack-Employee-Management-Project" // replace with actual URL
     }
   ];
 
