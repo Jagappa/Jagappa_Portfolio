@@ -45,22 +45,22 @@ const Skills = () => {
       <div className="container mx-auto px-4">
         <h2 className="section-title">Skills</h2>
         
-        <div className="mb-10 max-w-3xl mx-auto text-center">
-          <h3 className="text-xl md:text-2xl font-semibold mb-4 text-portfolio-accent">About My Skills</h3>
-          <p className="text-gray-300">
-            I’m a Java Full Stack Developer with experience in building dynamic and scalable web applications.
-            I work with modern technologies including <span className="font-medium text-white">Java, Spring Boot, React JS", TypeScript, Node.js, HTML, CSS, and JavaScript</span>.
-            <br /><br />
-            <span className="font-medium text-white">Frontend:</span> Skilled in creating responsive and user-friendly interfaces using HTML, CSS, JavaScript, and React JS",TypeScript.
-            <br />
-            <span className="font-medium text-white">Backend:</span> Proficient in Java and Spring Boot for developing secure and scalable server-side applications.
-            <br />
-            <span className="font-medium text-white">Programming & DSA:</span> Strong foundation in Java with good problem-solving skills using Data Structures and Algorithms.
-            <br />
-            <span className="font-medium text-white">Tools & Platforms:</span> Experienced with Git, GitHub, Postman, and modern IDEs like IntelliJ and VS Code.
-          </p>
-        </div>
-        
+<div className="mb-10 max-w-3xl mx-auto text-left">
+  <h3 className="text-xl md:text-2xl font-semibold mb-4 text-portfolio-accent"></h3>
+  <p className="text-gray-300 leading-relaxed">
+    I’m a Java Full Stack Developer with experience in building dynamic and scalable web applications.
+    I work with modern technologies including <span className="font-medium text-white">Java, Spring Boot, React JS, TypeScript, Node.js, HTML, CSS, and JavaScript</span>.
+    <br /><br />
+    <span className="font-medium text-white">Frontend:</span> Skilled in creating responsive and user-friendly interfaces using HTML, CSS, JavaScript, and React JS, TypeScript.
+    <br />
+    <span className="font-medium text-white">Backend:</span> Proficient in Java and Spring Boot for developing secure and scalable server-side applications.
+    <br />
+    <span className="font-medium text-white">Programming & DSA:</span> Strong foundation in Java with good problem-solving skills using Data Structures and Algorithms.
+    <br />
+    <span className="font-medium text-white">Tools & Platforms:</span> Experienced with Git, GitHub, Postman, and modern IDEs like IntelliJ and VS Code.
+  </p>
+</div>
+
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-4xl mx-auto">
           {skills.map((skill, index) => (
             <div 
